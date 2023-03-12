@@ -1,0 +1,36 @@
+.head {
+  font-weight: bold;
+}
+.navbar {
+  background-color: black;
+  border-radius: 0px 0px 10px 10px;
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 20px;
+}
+
+@media screen and (max-width: 675px) {
+  .first-li {
+    display: none;
+  }
+  .sec-li {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 675px) {
+  .first-li {
+    display: block;
+  }
+  .sec-li {
+    display: none;
+  }
+}
+
+.heart {
+  font-size: 25px;
+  cursor: pointer;
+}
